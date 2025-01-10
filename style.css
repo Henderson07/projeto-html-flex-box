@@ -16,21 +16,26 @@ body {
 }
 
 header {
-    background-color: gray;
+    background-color: rgb(80, 80, 80);
     color: white;
     padding: 10px;
 
     display: flex;
     flex-flow: row wrap;
-    
+    justify-content: space-between;
+    align-items: center;
 }
 
 header > h1 {
+    color: #077af1;
     border: 1px dotted black;
+    flex: 0 0 200px;
 }
 
 header > nav {
     border: 1px dotted black;
+    display: flex;
+    justify-content: flex-end;
 }
 
 header > nav > a {
@@ -48,6 +53,7 @@ header > nav > a:hover {
     background-color: white;
     color: black;
     transition: background-color .5s;
+}
 
 main {
     background-color: white;
