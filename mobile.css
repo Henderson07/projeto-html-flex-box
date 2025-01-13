@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 550px) {
     i#burguer {
         display: none;
     }
@@ -19,16 +18,4 @@ header > nav > a {
 }
 
 i#burguer {
-    background-color:black;
-    color: white;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-}
-
-i#burguer:hover {
-    background-color: white;
-    color: black;
-}
 
